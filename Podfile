@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 target 'Vise_F' do
+  use_frameworks!
 pod 'Alamofire'
 pod 'SwiftyJSON'
 pod 'ObjectMapper'
