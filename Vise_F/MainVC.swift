@@ -50,15 +50,15 @@ class MainVC: UIViewController, SendVideoDelegate {
         if duration != nil{
             avPlayer.seek(to: duration!)
         }
-        let a = UIView()
-        a.frame = minimizeView.bounds
-        a.bounds = minimizeView.bounds
-        a.backgroundColor = .black
-        a.layer.cornerRadius = 5
-        a.layer.borderWidth = 5
-        a.layer.borderColor = UIColor.black.cgColor
-        minimizeView.addSubview(a)
-        a.layer.insertSublayer(avPlayerLayer, at: 0)
+        let layerView = UIView()
+        layerView.frame = minimizeView.bounds
+        layerView.bounds = minimizeView.bounds
+        layerView.backgroundColor = .black
+        layerView.layer.cornerRadius = 5
+        layerView.layer.borderWidth = 5
+        layerView.layer.borderColor = UIColor.black.cgColor
+        minimizeView.addSubview(layerView)
+        minimizeView.layer.insertSublayer(avPlayerLayer, at: 0)
         avPlayerLayer.frame = minimizeView.bounds
         avPlayerLayer.bounds = minimizeView.bounds
         avPlayerLayer.cornerRadius = 10

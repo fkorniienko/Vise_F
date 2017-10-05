@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62239CB91F862DBB00227E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62239CB81F862DBB00227E2F /* LaunchScreen.storyboard */; };
 		6264EF4E1F8622DA0089E9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264EF4D1F8622DA0089E9A0 /* AppDelegate.swift */; };
 		6264EF551F8622DA0089E9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6264EF541F8622DA0089E9A0 /* Assets.xcassets */; };
-		6264EF581F8622DA0089E9A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6264EF561F8622DA0089E9A0 /* LaunchScreen.storyboard */; };
 		6264F0201F86234B0089E9A0 /* AuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F01F1F86234B0089E9A0 /* AuthScreen.swift */; };
 		6264F0321F8623750089E9A0 /* Clips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F0211F8623750089E9A0 /* Clips.swift */; };
 		6264F0331F8623750089E9A0 /* ClipsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F0221F8623750089E9A0 /* ClipsData.swift */; };
@@ -29,13 +29,15 @@
 		6264F0411F8623760089E9A0 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F0301F8623750089E9A0 /* SettingsVC.swift */; };
 		6264F0421F8623760089E9A0 /* VideoPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F0311F8623750089E9A0 /* VideoPlayerVC.swift */; };
 		6264F0441F86238A0089E9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6264F0431F86238A0089E9A0 /* Main.storyboard */; };
+		683BCD11CA2BE0EA042C584B /* Pods_Vise_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF25341F496276D8B3BF360 /* Pods_Vise_F.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C297E85104659258F6C8A40 /* Pods-Vise_F.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vise_F.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vise_F/Pods-Vise_F.debug.xcconfig"; sourceTree = "<group>"; };
+		62239CB81F862DBB00227E2F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6264EF4A1F8622DA0089E9A0 /* Vise_F.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vise_F.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6264EF4D1F8622DA0089E9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Vise_F/AppDelegate.swift; sourceTree = "<group>"; };
 		6264EF541F8622DA0089E9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Vise_F/Assets.xcassets; sourceTree = "<group>"; };
-		6264EF571F8622DA0089E9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6264EF591F8622DA0089E9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Vise_F/Info.plist; sourceTree = "<group>"; };
 		6264F01F1F86234B0089E9A0 /* AuthScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthScreen.swift; sourceTree = "<group>"; };
 		6264F0211F8623750089E9A0 /* Clips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clips.swift; sourceTree = "<group>"; };
@@ -195,6 +197,23 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		6ED9D06259EFDD8492BEA94A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BF25341F496276D8B3BF360 /* Pods_Vise_F.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B657E602BCED90A72751BAA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C297E85104659258F6C8A40 /* Pods-Vise_F.debug.xcconfig */,
+				88D72CA5BD7249121E31260B /* Pods-Vise_F.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +283,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B255B7AAA818481A67C25CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vise_F/Pods-Vise_F-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A3484E8B41A2E99F339AC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vise_F-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E76C4069BCF14768F2DCE34C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vise_F/Pods-Vise_F-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vise_F/Pods-Vise_F-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6264EF461F8622DA0089E9A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,18 +372,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6264EF561F8622DA0089E9A0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6264EF571F8622DA0089E9A0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = Vise_F;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6264EF5A1F8622DA0089E9A0 /* Debug */ = {
